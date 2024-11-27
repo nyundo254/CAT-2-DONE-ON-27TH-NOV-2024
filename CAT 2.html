@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+    </head>
+    <style>
+        h2{
+            margin-left: 150px;
+        }
+        .form{
+            width: 400px;
+            height: 600px;
+           
+        }
+        .form input{
+            margin-left: 50px;
+            align-content: center;
+            float: right;
+            
+        }
+        p{
+            margin-left: 230px;
+            font-size: 12px;
+
+        }
+        select{
+            margin-left: 155px;
+        }
+        .Register{
+            margin-left: 240px;
+        }
+    </style>
+    <body>
+        <div class="form">
+        <h2>Register Account</h2>
+        <label for="Full Name">Full Name:</label>
+        <input type="text" id="Ful Name" min="4"><br>
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" placeholder=""><br>
+        <label for="confirm password">Confirm Password:</label>
+        <input type="password" id="Confirm password"><br>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email">
+        <p>Format: john@mail.com</p>
+        <label for="Phone Numbe">Phone Number:</label>
+        <input type="tel" id="Phone Number"><br>
+        <p>Format: .0XXX-XXX-XXX</p>
+        <label for="Zip Code">Zip Code:</label>
+        <input type="text" id="Zip Code"><br>
+        <P>Formart: Use 5 or 9 digits Zip Code</P>
+        <label for="Card Type">Card Type</label>
+        <select>
+            <option>Visa</option>
+            <option>Paypal</option>
+            <option>Master Card</option>
+        </select><br>
+        <label for="Card Number">Card Number:</label>
+        <input type="text" id="Card Number"><br>
+        <p>Format: 1111-2222-3333-4444</p>
+        <label>Expiration Date:</label>
+        <input type="text"><br>
+        <p>Format: YYYY-MM-DD</p>
+        <button class="Register">Register</button>
+        <button>Clear Form</button>
+    </div>
+    </body>
+</html>
